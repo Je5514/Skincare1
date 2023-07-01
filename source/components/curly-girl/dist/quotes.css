@@ -1,0 +1,152 @@
+.quotes {
+  background-image: url("../../images/curlygirl.jpg");
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+}
+@media (min-width: 578px) {
+  .quotes {
+    display: flex;
+  }
+}
+@media (min-width: 992px) {
+  .quotes {
+    padding: 50px;
+  }
+}
+@media (min-width: 1200px) {
+  .quotes {
+    padding: 100px;
+  }
+}
+@media (min-width: 1400px) {
+  .quotes {
+    padding: 200px 100px;
+  }
+}
+.quotes .contanier_quo {
+  padding: 20px 0;
+  margin: auto;
+}
+@media (min-width: 768px) {
+  .quotes .contanier_quo {
+    padding: 100px 20px;
+  }
+}
+.quotes .contanier_quo .txt {
+  padding-bottom: 10px;
+}
+@media (min-width: 987px) {
+  .quotes .contanier_quo .txt {
+    padding-bottom: 30px;
+  }
+}
+.quotes .contanier_quo .txt h2 {
+  font-weight: 500;
+  font-size: 3rem;
+  line-height: 120.5%;
+  color: #FFFFFF;
+}
+@media (min-width: 768px) {
+  .quotes .contanier_quo .txt h2 {
+    max-width: 600px;
+    font-size: 3.5rem;
+  }
+}
+@media (min-width: 1200px) {
+  .quotes .contanier_quo .txt h2 {
+    font-size: 4rem;
+  }
+}
+.quotes .contanier_quo .link a {
+  text-decoration: none;
+  color: #FFFFFF;
+  font-size: 1.2rem;
+  position: relative;
+  transition: 0.5s;
+}
+.quotes .contanier_quo .link a::after {
+  content: "";
+  background: #FFFFFF;
+  width: 100%;
+  height: 2px;
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+}
+.quotes .contanier_quo .link a:hover {
+  opacity: 0.5;
+}
+.quotes .quote {
+  background-color: #FFF3F3;
+  line-height: 1.2;
+  position: relative;
+  margin: auto;
+  position: relative;
+  padding: 50px 30px;
+}
+@media (min-width: 1200px) {
+  .quotes .quote {
+    padding: 95px 80px;
+  }
+}
+.quotes .quote h3 {
+  font-size: 1.8rem;
+  color: #342B42;
+  font-weight: 500;
+  line-height: 150%;
+  max-width: 350px;
+  margin: auto;
+  padding-bottom: 20px;
+}
+@media (min-width: 992px) {
+  .quotes .quote h3 {
+    font-size: 2rem;
+  }
+}
+@media (min-width: 1400px) {
+  .quotes .quote h3 {
+    font-size: 3rem;
+    max-width: 500px;
+  }
+}
+.quotes .quote img {
+  padding: 10px;
+}
+.quotes .quote .quo-open {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+@media (min-width: 1200px) {
+  .quotes .quote .quo-open {
+    left: 40px;
+    top: 40px;
+  }
+}
+.quotes .quote .quo-close {
+  position: absolute;
+  right: 0;
+  bottom: 50px;
+}
+@media (min-width: 1200px) {
+  .quotes .quote .quo-close {
+    right: 50px;
+    bottom: 70px;
+  }
+}
+.quotes .quote .auth {
+  position: absolute;
+  right: 50px;
+  bottom: 10px;
+  padding: 10px;
+}
+.quotes .quote .auth p, .quotes .quote .auth span {
+  font-size: 1rem;
+}
+@media (min-width: 1200px) {
+  .quotes .quote .auth p, .quotes .quote .auth span {
+    font-size: 1.2rem;
+  }
+}

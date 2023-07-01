@@ -1,0 +1,123 @@
+.products {
+  padding: 40px;
+  margin: 100px 0;
+}
+.products .topic {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.products .topic .title h2 {
+  color: #000000;
+  font-size: 2.2rem;
+  font-weight: 500;
+  line-height: 120.5%;
+  margin: auto;
+}
+@media (min-width: 768px) {
+  .products .topic .title h2 {
+    font-size: 3rem;
+  }
+}
+.products .topic .btn button {
+  border-radius: 31px;
+  font-weight: 400;
+  font-size: 0.8rem;
+  color: #000000;
+  width: 140px;
+  background: transparent;
+  height: 40px;
+  position: relative;
+  transition: all 0.5s;
+}
+@media (min-width: 768px) {
+  .products .topic .btn button {
+    font-size: 1.2rem;
+    width: 160px;
+    height: 50px;
+  }
+}
+.products .topic .btn button:hover {
+  background: #102421;
+  color: #fffafa;
+}
+.products .topic .btn button:hover i img {
+  filter: invert(100%);
+}
+.products .topic .btn button i img {
+  display: inline;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  filter: invert(0%);
+}
+@media (min-width: 768px) {
+  .products .topic .btn button i img {
+    top: 16px;
+  }
+}
+.products .container_skin {
+  display: flex;
+  flex-wrap: wrap;
+}
+.products .container_skin .skin {
+  position: relative;
+  padding: 20px 0px;
+  margin: auto;
+  transition: all 0.5s;
+}
+.products .container_skin .skin a {
+  text-align: center;
+  text-decoration: none;
+}
+.products .container_skin .skin a h3 {
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 149.5%;
+  color: #151442;
+}
+.products .container_skin .skin a span {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 149.5%;
+  color: #8F9095;
+}
+.products .container_skin .skin a figcaption {
+  font-weight: 500;
+  font-size: 1.1rem;
+  line-height: 149.5%;
+  margin: auto;
+  color: #8F9095;
+  max-width: 200px;
+  padding-top: 20px;
+}
+.products .container_skin .skin a img {
+  display: inline;
+}
+.products .container_skin .skin a .circle {
+  background-color: #102421;
+  color: #FFFFFF;
+  border-radius: 100%;
+  text-transform: uppercase;
+  position: absolute;
+  right: 20px;
+  top: 90px;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 149.5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  transition: all 0.5s;
+}
+.products .container_skin .skin:hover {
+  transform: translateY(-15px);
+}
+.products .container_skin .skin:hover .circle {
+  border: 1px solid #102421;
+  background: transparent;
+  color: #000;
+}

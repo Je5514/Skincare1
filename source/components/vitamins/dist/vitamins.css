@@ -1,0 +1,101 @@
+.vitamins {
+  padding: 40px;
+}
+.vitamins .topic {
+  padding: 50px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.vitamins .topic .title h2 {
+  color: #151442;
+  font-size: 2.2rem;
+  font-weight: 500;
+  line-height: 120.5%;
+  margin: auto;
+}
+@media (min-width: 768px) {
+  .vitamins .topic .title h2 {
+    font-size: 3rem;
+  }
+}
+.vitamins .topic .btn button {
+  border: 1px solid #102421;
+  border-radius: 31px;
+  font-weight: 400;
+  font-size: 0.8rem;
+  color: #151442;
+  width: 140px;
+  background: transparent;
+  height: 40px;
+  position: relative;
+  transition: all 0.2s;
+}
+@media (min-width: 768px) {
+  .vitamins .topic .btn button {
+    font-size: 1.2rem;
+    width: 160px;
+    height: 50px;
+  }
+}
+.vitamins .topic .btn button:hover {
+  background: #000;
+  color: #fff;
+}
+.vitamins .topic .btn button:hover i img {
+  filter: invert(100%);
+}
+.vitamins .topic .btn button i img {
+  display: inline;
+  position: absolute;
+  right: 10px;
+  top: 12px;
+}
+@media (min-width: 768px) {
+  .vitamins .topic .btn button i img {
+    top: 16px;
+  }
+}
+.vitamins .container_skin {
+  display: flex;
+  flex-wrap: wrap;
+  transition: all 0.5s;
+}
+.vitamins .container_skin .skin {
+  position: relative;
+  padding: 20px;
+  margin: auto;
+  transition: 0.5s;
+}
+.vitamins .container_skin .skin a {
+  text-align: center;
+  text-decoration: none;
+}
+.vitamins .container_skin .skin a h3 {
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 149.5%;
+  color: #151442;
+}
+.vitamins .container_skin .skin a span {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 149.5%;
+  color: #8F9095;
+}
+.vitamins .container_skin .skin a figcaption {
+  font-weight: 500;
+  font-size: 1.1rem;
+  line-height: 149.5%;
+  margin: auto;
+  color: #8F9095;
+  max-width: 200px;
+  padding-top: 20px;
+}
+.vitamins .container_skin .skin a img {
+  display: inline;
+  width: 250px;
+}
+.vitamins .container_skin .skin:hover {
+  transform: scale(1.1);
+}
