@@ -1,0 +1,79 @@
+.register {
+    .details {
+        .title {
+            margin: 20px;
+            padding: 10px;
+            color: #fff;
+            background: #102421;
+            h1 {
+                font-size: 2rem;
+                text-align: center;
+            }
+        }
+        .container_form {
+            @media(min-width: 768px){
+                display: flex;
+                justify-content: space-around;
+                padding: 20px 100px;
+                // flex-wrap: wrap;
+            }
+        }
+        .login{
+            padding: 20px;
+           
+            .input-label{
+                font-size: 1.2rem;
+                font-weight: bold;
+            }
+            input.input-field{
+                padding: 10px;
+                width: 100%;
+                border: 1px solid #000;
+                font-size: 1rem;
+            }
+            .email, .password{
+                display: grid;
+                padding: 10px 0;
+            }
+            .show {
+                padding:10px 0;
+            }
+        }
+        .create_account{
+            padding: 20px;
+        }
+        .input-container{
+            padding: 20px 0;
+        }
+        h2{
+            font-size: 1.5rem;
+        }
+        p{
+            font-weight: bold;
+            letter-spacing:.2em;
+            // line-height:2;
+            font-size: 1rem;
+            max-width: 500px;
+            @media(min-width: 1200px){
+                padding: 20px 0;
+            }
+        } 
+        button{
+            background: #102421;
+            color: #ffff;
+            padding: 15px;
+            width: 100%;
+            font-size: 1rem;
+            border: none;
+            transition: all 0.3s;
+            &:hover{
+                background: transparent;
+                color: #000;
+                border: 1px solid #000;
+            }
+            @media(min-width: 768px){
+                width: 200px;
+            }
+        }
+    }
+}

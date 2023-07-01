@@ -1,0 +1,30 @@
+.benefits .title h2 {
+  color: #151442;
+  text-align: center;
+  font-weight: 500;
+  font-size: 3rem;
+  line-height: 120.5%;
+}
+.benefits .container_icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+  padding: 100px;
+  margin: auto;
+}
+.benefits .container_icons .icon {
+  padding: 20px 0;
+}
+.benefits .container_icons .icon p {
+  color: #151442;
+  text-align: center;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 149.5%;
+  padding: 20px;
+  max-width: 300px;
+}
+.benefits .container_icons .icon img {
+  margin: auto;
+}/*# sourceMappingURL=benefits.css.map */
