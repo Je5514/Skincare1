@@ -1,0 +1,18 @@
+extend ../pagelayout/home
+block variables
+	-var active = 'Home'
+	-var bodyClass = 'theme--default'
+block story
+	section.section_banner 
+		include ../components/banner/banner.pug
+	section.section_products 
+		include ../components/products-home/products.pug
+	section.section_quotes 
+		include ../components/curly-girl/quotes.pug
+	section.section_vitamins 
+		include ../components/vitamins/vitamins.pug
+	section.section_benefits 
+		include ../components/Benefits/benefits.pug
+
+
+	

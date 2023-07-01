@@ -1,0 +1,26 @@
+.register 
+    .details
+        .title(data-aos="fade-up" data-aos-duration="800" data-aos-delay="200")   
+            h1 Customer Login
+        .container_form 
+            .login(data-aos="fade-up" data-aos-duration="800" data-aos-delay="200")   
+                h2 Registered Customers 
+                p If you have an account, sign in with your email address 
+                form#form.input-container(action="/" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200")  
+                    .email 
+                        label(for="email" class="input-label") Email :
+                        input(type="email" name="email" id="email" class="input-field"  required)
+                    .password 
+                        label(for="pwd" class="input-label") Password :
+                        input(type="password" name="pwd" id="password" class="input-field" required)
+                    .show 
+                        input(type="checkbox" onclick="mypassword()")
+                        |Show Password
+                    .submit 
+                        button(type="submit") Sign In
+            .create_account(data-aos="fade-up" data-aos-duration="800" data-aos-delay="200")   
+                h2 New Customers
+                p Creating an account has many benefits: check out faster, keep more than one address, track orders and more.
+                .input-container 
+                    .create-btn 
+                        button Create an Account

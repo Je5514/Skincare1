@@ -1,0 +1,154 @@
+.banner{
+    width: 100%;
+    padding-top: 20px;
+    .container-story{
+        background: #102421;
+        max-width: 90%;
+        margin: auto;
+        align-items: center;
+        @media(min-width:856px){
+            display: flex;
+        }
+        .content{
+            padding: 50px;
+            // max-width: 490px;
+            margin: auto;
+            @media(min-width:768px){
+                padding: 50px 25px;
+            }
+            @media(min-width:1200px){
+                margin: 0px 50px;
+            }
+           .txt-be p{
+            font-size: 1rem;
+            color: #D2D2D2;
+            line-height: 120.5%;
+            letter-spacing: 0.5em;
+            font-size: 1rem;
+            font-weight: 500;
+            margin-bottom: 10px;
+            @media(min-width:768px){
+                font-size: 1.4rem;
+            }
+            @media(min-width:856px){
+                font-size: 1rem;
+            }
+            @media(min-width: 956px){
+                font-size: 1.2rem;
+            }
+            @media(min-width: 1200px){
+                font-size:1.5rem;
+            }
+           
+           }
+           .txt-we {
+            @media(min-width:768px){
+                padding: 20px 0;
+            }
+            @media(min-width:856px){
+                padding: 10px 0;
+            }
+            h1{
+                font-style: normal;
+                font-size: 3.1rem;
+                font-weight: 700;
+                line-height: 120.5%;
+                color:#FFF;
+                @media(min-width:628px){
+                    font-size: 4.5rem;
+                }
+                @media(min-width:856px){
+                    font-size: 3rem;
+                }
+                @media(min-width: 1200px){
+                    font-size: 4.2rem;
+                }
+                @media(min-width:1400px){
+                    font-size: 5rem;
+                }
+               }
+           }
+           .txt-skin p{
+            font-style: normal;
+            font-weight: 400;
+            font-size: 1rem;
+            line-height: 120.5%;
+            color: #D2D2D2;
+            margin-bottom: 30px;
+            margin-top: 10px;
+            @media(min-width: 628px){
+                font-size: 1.5rem;
+            }
+            @media(min-width:856px){
+                font-size: 1.2rem;
+            }
+            @media(min-width: 956px){
+                font-size: 1.3333rem;
+            }
+            @media(min-width:1400px){
+                font-size: 1.5rem;
+            }
+           }
+           .btn {
+                display: flex;
+                button{
+                    width: 135px;
+                    height: 40px;
+                    border-radius:48px;
+                    background: #C7E1BF;
+                    border: none;
+                    margin-right: 15px;
+                    transition: all 0.5s;
+                    a{
+                        font-size: 0.8rem;
+                        font-weight: 400;
+                        font-style: normal;
+                        line-height: 120.5%;
+                        color: #102522;
+                        text-decoration: none;
+                        @media(min-width:628px){
+                            font-size: 1.2rem;
+                        }
+                        @media(min-width:856px){
+                            font-size: 1rem;
+                        }
+                        @media(min-width: 956px){
+                            font-size: 1.2rem;
+                        }
+                    }
+                    @media(min-width:628px){
+                        width: 200px;
+                        height: 50px;
+                        margin-right: 25px;
+                    }
+                     @media(min-width:856px){
+                        width: 140px;
+                        height: 50px;
+                     }
+                     @media(min-width: 956px){
+                        width: 170px;
+                        height: 50px;
+                    }
+                    // @media(min-width:1400px){
+                    //     width: 200px;
+                    //     font-size: 1.4rem;
+                    //     height: 60px;
+                    //     margin: 20px 10px;
+                    // }
+                    &:hover{
+                        background: transparent;
+                        border: 1px solid #FFFFFF;
+                        a{
+                            color: #FFFFFF;
+                        }
+                    }
+                }
+           }
+        }
+        .girl-pic {
+            img{
+               display: block; 
+            }
+        }
+    }
+}

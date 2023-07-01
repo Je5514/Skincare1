@@ -1,0 +1,170 @@
+.banner {
+  width: 100%;
+  padding-top: 20px;
+}
+.banner .container-story {
+  background: #102421;
+  max-width: 90%;
+  margin: auto;
+  align-items: center;
+}
+@media (min-width: 856px) {
+  .banner .container-story {
+    display: flex;
+  }
+}
+.banner .container-story .content {
+  padding: 50px;
+  margin: auto;
+}
+@media (min-width: 768px) {
+  .banner .container-story .content {
+    padding: 50px 25px;
+  }
+}
+@media (min-width: 1200px) {
+  .banner .container-story .content {
+    margin: 0px 50px;
+  }
+}
+.banner .container-story .content .txt-be p {
+  font-size: 1rem;
+  color: #D2D2D2;
+  line-height: 120.5%;
+  letter-spacing: 0.5em;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+@media (min-width: 768px) {
+  .banner .container-story .content .txt-be p {
+    font-size: 1.4rem;
+  }
+}
+@media (min-width: 856px) {
+  .banner .container-story .content .txt-be p {
+    font-size: 1rem;
+  }
+}
+@media (min-width: 956px) {
+  .banner .container-story .content .txt-be p {
+    font-size: 1.2rem;
+  }
+}
+@media (min-width: 1200px) {
+  .banner .container-story .content .txt-be p {
+    font-size: 1.5rem;
+  }
+}
+@media (min-width: 768px) {
+  .banner .container-story .content .txt-we {
+    padding: 20px 0;
+  }
+}
+@media (min-width: 856px) {
+  .banner .container-story .content .txt-we {
+    padding: 10px 0;
+  }
+}
+.banner .container-story .content .txt-we h1 {
+  font-style: normal;
+  font-size: 3.1rem;
+  font-weight: 700;
+  line-height: 120.5%;
+  color: #FFF;
+}
+@media (min-width: 628px) {
+  .banner .container-story .content .txt-we h1 {
+    font-size: 4.5rem;
+  }
+}
+@media (min-width: 856px) {
+  .banner .container-story .content .txt-we h1 {
+    font-size: 3rem;
+  }
+}
+@media (min-width: 1200px) {
+  .banner .container-story .content .txt-we h1 {
+    font-size: 4.2rem;
+  }
+}
+@media (min-width: 1400px) {
+  .banner .container-story .content .txt-we h1 {
+    font-size: 5rem;
+  }
+}
+.banner .container-story .content .txt-skin p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 120.5%;
+  color: #D2D2D2;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+@media (min-width: 628px) {
+  .banner .container-story .content .txt-skin p {
+    font-size: 1.5rem;
+  }
+}
+@media (min-width: 856px) {
+  .banner .container-story .content .txt-skin p {
+    font-size: 1.2rem;
+  }
+}
+@media (min-width: 956px) {
+  .banner .container-story .content .txt-skin p {
+    font-size: 1.3333rem;
+  }
+}
+@media (min-width: 1400px) {
+  .banner .container-story .content .txt-skin p {
+    font-size: 1.5rem;
+  }
+}
+.banner .container-story .content .btn {
+  display: flex;
+}
+.banner .container-story .content .btn button {
+  width: 135px;
+  height: 40px;
+  border-radius: 48px;
+  background: #C7E1BF;
+  border: none;
+  font-size: 0.8rem;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 120.5%;
+  color: #102522;
+  margin-right: 10px;
+  transition: all 0.5s;
+}
+@media (min-width: 628px) {
+  .banner .container-story .content .btn button {
+    font-size: 1.2rem;
+    width: 200px;
+    height: 60px;
+  }
+}
+@media (min-width: 856px) {
+  .banner .container-story .content .btn button {
+    width: 140px;
+    height: 50px;
+    font-size: 1rem;
+  }
+}
+@media (min-width: 956px) {
+  .banner .container-story .content .btn button {
+    font-size: 1.2rem;
+    width: 170px;
+    height: 50px;
+  }
+}
+.banner .container-story .content .btn button:hover {
+  background: transparent;
+  color: #ffffff;
+  border: 1px solid #FFFFFF;
+}
+.banner .container-story .girl-pic img {
+  display: block;
+}/*# sourceMappingURL=banner.css.map */

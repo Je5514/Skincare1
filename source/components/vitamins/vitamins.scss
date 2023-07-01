@@ -1,0 +1,99 @@
+.vitamins{
+    padding:40px;
+    .topic{
+        padding: 50px 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        .title h2{
+            color:#151442;
+            font-size: 2.2rem;
+            font-weight: 500;
+            line-height: 120.5%;
+            margin: auto; 
+            @media(min-width:768px){
+                font-size: 3rem;
+            }
+
+        }
+        .btn button{
+            border: 1px solid #102421;
+            border-radius: 31px;
+            font-weight: 400;
+            font-size: 0.8rem;
+            color: #151442;
+            width: 140px;
+            background: transparent;
+            height: 40px;
+            position: relative;
+            transition: all 0.2s;
+            @media(min-width:768px){
+                font-size: 1.2rem;
+                width: 160px;
+                height: 50px;
+            }
+            &:hover{
+                background: #000;
+                color: #fff;
+                i img{
+                    filter: invert(100%);
+                }
+            }
+            i{
+               img{
+                display: inline;
+                position: absolute;
+                right: 10px;
+                top: 12px;
+                @media(min-width:768px){
+                    top:16px;
+                }
+               } 
+            }
+        }
+    }
+    .container_skin{
+        display: flex;
+        flex-wrap: wrap;
+        transition: all .5s;
+        
+        .skin{
+            position: relative;
+            padding: 20px;
+            margin: auto;
+            transition: 0.5s;
+            a{
+                text-align: center;
+                text-decoration: none;
+                h3{
+                    font-weight: 500;
+                    font-size: 2rem;
+                    line-height: 149.5%;
+                    color: #151442;
+                }
+                span{
+                    font-weight: 400;
+                    font-size: 1rem;
+                    line-height: 149.5%;
+                    color: #8F9095;
+                }
+                figcaption{
+                    font-weight: 500;
+                    font-size: 1.1rem;
+                    line-height: 149.5%;
+                    margin: auto;
+                    color: #8F9095;
+                    max-width: 200px;
+                    padding-top: 20px;
+                }
+                img{
+                    display: inline;
+                    width: 250px;
+                }
+            }
+            &:hover{
+                transform: scale(1.1);
+            }
+        }
+    }
+}
