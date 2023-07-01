@@ -1,6 +1,16 @@
 
 // Required Plugins
 
+var gulp        = require('gulp');
+var deploy      = require('gulp-gh-pages');
+
+/**
+ * Push build to gh-pages
+ */
+gulp.task('deploy', function () {
+  return gulp.src("./dist/**/*")
+    .pipe(deploy())
+});
 
 const { src, dest, lastRun, series, parallel, watch } = require('gulp');
 var fs = require('fs'),
